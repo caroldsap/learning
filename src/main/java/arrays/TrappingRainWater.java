@@ -21,8 +21,7 @@ public class TrappingRainWater {
         int ans = 0;
         int elementAtLeft = 0, elementAtRight = 0;
         while (left < right) {
-            // if (height[left] > leftMax) leftMax = height[left];
-            // if (height[right] > rightMax) rightMax = height[right];
+
             elementAtLeft = height[left];
             elementAtRight = height[right];
             leftMax = Math.max(leftMax,elementAtLeft);
